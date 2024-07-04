@@ -11,34 +11,34 @@ export default function Footer() {
         <footer className="bg-dark text-light py-4">
             <Container>
                 <Row>
-                    <Col md={4}>
-                        <h5>About Us</h5>
+                    <Col md={4} className="mb-4 mb-md-0">
+                        <h5>About Me</h5>
                         <p>
-                            We are a company dedicated to providing the best products and services.
+                            A Developer dedicated to providing the best products and services.
                         </p>
                     </Col>
-                    <Col md={4}>
+                    <Col md={4} className="mb-4 mb-md-0">
                         <h5>Links</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#home" className="text-light">Home</a></li>
-                            <li><a href="#features" className="text-light">Features</a></li>
-                            <li><a href="#pricing" className="text-light">Pricing</a></li>
+                            <li><a className="text-light">Home</a></li>
+                            <li><a className="text-light">Features</a></li>
+                            <li><a className="text-light">Pricing</a></li>
                         </ul>
                     </Col>
                     <Col md={4}>
                         <h5>Contact Us</h5>
                         <p>
-                            Email:  gauravgol34@gmail.com<br />
+                            Email: gauravgol34@gmail.com<br />
                             Phone: +917037237399
                         </p>
                         <div className="mt-3">
-                            <a href="mailto:info@company.com" className="text-light mr-3">
+                            <a href="mailto:gauravgol34@gmail.com" className="text-light mr-3">
                                 <FontAwesomeIcon icon={faEnvelope} size="2x" />
                             </a>
                             <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="text-light mr-3">
                                 <FontAwesomeIcon icon={faInstagram} size="2x" />
                             </a>
-                            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="text-light">
+                            <a href="https://wa.me/7037237399" target="_blank" rel="noopener noreferrer" className="text-light">
                                 <FontAwesomeIcon icon={faWhatsapp} size="2x" />
                             </a>
                         </div>
