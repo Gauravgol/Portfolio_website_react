@@ -16,7 +16,7 @@ function Projects() {
                         <li>Player Management: View player details and activity.</li>
                         <li>Transaction Approval: Approve and monitor withdrawal requests.</li>
                         <li>Dashboard Reporting: Real-time data visualization and reporting.</li>
-                        <li><a href='https://cliq.zoho.com/company/654200107/chats/CT_2231796882690347967_654200107-B1/messages/1720154931280_131017031760'>Live Link</a></li>
+                        <li><a href='https://zingy-alpaca-4f9c3d.netlify.app/'>Live Link</a></li>
                         <li><a href='https://github.com/Gauravgol/GroomAdminPanel'>Details || code</a></li>
                     </ul>
                 </Col>
