@@ -37,3 +37,61 @@
     transform: rotate(360deg);
   }
 }
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.custom-heading {
+  font-size: 2.5rem;
+
+  font-weight: bold;
+
+  color: #333;
+
+  margin-bottom: 2rem;
+
+  text-transform: uppercase;
+
+}
+
+.project-col {
+  margin-bottom: 2rem;
+  /* Add some margin at the bottom of each column */
+}
+
+.project-img {
+  margin-bottom: 1rem;
+  /* Add some margin at the bottom of each image */
+}
+
+.project-list {
+  list-style-type: none;
+  /* Remove default list style */
+  padding: 0;
+  /* Remove default padding */
+}
+
+.project-list li {
+  margin-bottom: 0.5rem;
+  /* Add margin between list items */
+}
+
+.project-list a {
+  text-decoration: none;
+  /* Remove underline from links */
+  color: #007bff;
+  /* Set link color */
+}
+
+.project-list a:hover {
+  text-decoration: underline;
+  /* Underline links on hover */
+}
