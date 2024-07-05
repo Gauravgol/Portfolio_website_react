@@ -5,8 +5,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
 export default function Footer() {
+    const navigate = useNavigate()
     return (
         <footer className="bg-dark text-light py-4">
             <Container>
@@ -20,9 +22,9 @@ export default function Footer() {
                     <Col md={4} className="mb-4 mb-md-0">
                         <h5>Links</h5>
                         <ul className="list-unstyled">
-                            <li><a className="text-light">Home</a></li>
-                            <li><a className="text-light">Features</a></li>
-                            <li><a className="text-light">Pricing</a></li>
+                            <li className="text-light" onClick={() => navigate('/')}> Home</li>
+                            <li className="text-light" onClick={() => navigate('/projects')}> Projects</li>
+                            <li className="text-light" onClick={() => navigate('/about')}> About</li>
                         </ul>
                     </Col>
                     <Col md={4}>
