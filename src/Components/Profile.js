@@ -25,8 +25,10 @@ function Profile() {
                         unmountOnExit
                     >
                         <div>
-                            <h1 className="display-4">Welcome</h1>
-                            <h1 className="display-4">I am Gaurav, Software Developer</h1>
+                            <h1 className='display-4'>Welcome!</h1>
+                            <h1 className="font-black">I am Gaurav</h1>
+                            <h1 className='display-4'></h1>
+                            <h1 className=" font-black">Software Developer</h1>
                         </div>
                     </CSSTransition>
                 </Col>
@@ -37,15 +39,91 @@ function Profile() {
             </Row>
             <Row className="mt-5">
                 <Col className="text-center">
-                    <div className="d-flex justify-content-center flex-wrap mt-3">
-                        <FontAwesomeIcon icon={faReact} size="3x" className="m-3" color="#61DBFB" />
+                <h1 class=" font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] marker">Skills</h1>
+                <div className="d-flex justify-content-center flex-wrap align-items-center mt-3 gap-4">
+                        {/* <FontAwesomeIcon icon={faReact} size="3x" className="m-3" color="#61DBFB" />
                         <FontAwesomeIcon icon={faNodeJs} size="3x" className="m-3" color="#68A063" />
                         <FontAwesomeIcon icon={faJsSquare} size="3x" className="m-3" color="#F7E018" />
                         <FontAwesomeIcon icon={faHtml5} size="3x" className="m-3" color="#E34F26" />
                         <FontAwesomeIcon icon={faCss3Alt} size="3x" className="m-3" color="#1572B6" />
                         <FontAwesomeIcon icon={faDatabase} size="3x" className="m-3" color="#4DB33D" />
                         <FontAwesomeIcon icon={faGit} size="3x" className="m-3" color="#F05032" />
-                        <FontAwesomeIcon icon={faGithub} size="3x" className="m-3" color="#181717" />
+                    <FontAwesomeIcon icon={faGithub} size="3x" className="m-3" color="#181717" /> */}
+
+                        
+                            {/* <div style={{ opacity: 1, transform: 'none' }}>
+                                <div className="flex-around-center w-[60px] flex-col sm:w-[80px]">
+                                    <img loading="lazy" src="./html.png" width="50%" alt="HTML 5" />
+                                    <p className="text-center text-xs">HTML 5</p>
+                                </div>
+                            </div> */}
+
+
+                            <div style={{ opacity: 1, transform: 'none' }}>
+                                <div className="flex-around-center w-[60px] flex-col sm:w-[80px]">
+                                    <img loading="lazy" src="./reactjs.png" width="100%" alt="React JS" />
+                                    <p className="text-center text-xs">React JS</p>
+                                </div>
+                            </div>
+                            <div style={{ opacity: 1, transform: 'none' }}>
+                                <div className="flex-around-center w-[60px] flex-col sm:w-[80px]">
+                                    <img loading="lazy" src="./javascript.png" width="50%" alt="JavaScript" />
+                                    <p className="text-center text-xs">JavaScript</p>
+                                </div>
+                            </div>
+                           
+                          
+                            <div style={{ opacity: 1, transform: 'none' }}>
+                                <div className="flex-around-center w-[60px] flex-col sm:w-[80px]">
+                                    <img loading="lazy" src="./redux.png" width="50%" alt="Redux" />
+                                    <p className="text-center text-xs">Redux</p>
+                                </div>
+                            </div>
+                             
+                            
+                            <div style={{ opacity: 1, transform: 'none' }}>
+                                <div className="flex-around-center w-[60px] flex-col sm:w-[80px]">
+                                    <img loading="lazy" src="./nodejs.png" width="50%" alt="Node JS" />
+                                    <p className="text-center text-xs">Node JS</p>
+                                </div>
+                            </div>
+                            <div style={{ opacity: 1, transform: 'none' }}>
+                                <div className="flex-around-center w-[60px] flex-col sm:w-[80px]">
+                                    <img loading="lazy" src="./expressjs.png" width="50%" alt="Express JS" />
+                                    <p className="text-center text-xs">Express JS</p>
+                                </div>
+                            </div>
+                            <div style={{ opacity: 1, transform: 'none' }}>
+                                <div className="flex-around-center w-[60px] flex-col sm:w-[80px]">
+                                    <img loading="lazy" src="./mongodb.png" width="50%" alt="MongoDB" />
+                                    <p className="text-center text-xs">MongoDB</p>
+                                </div>
+                            </div>
+                            <div style={{ opacity: 1, transform: 'none' }}>
+                                <div className="flex-around-center w-[60px] flex-col sm:w-[80px]">
+                                    <img loading="lazy" src="./mongoose.png" width="50%" alt="Mongoose" />
+                                    <p className="text-center text-xs">Mongoose</p>
+                                </div>
+                            </div>
+                            
+                            <div style={{ opacity: 1, transform: 'none' }}>
+                                <div className="flex-around-center w-[60px] flex-col sm:w-[80px]">
+                                    <img loading="lazy" src="./git.png" width="50%" alt="Git" />
+                                    <p className="text-center text-xs">Git</p>
+                                </div>
+                            </div>
+                            <div style={{ opacity: 1, transform: 'none' }}>
+                                <div className="flex-around-center w-[60px] flex-col sm:w-[80px]">
+                                    <img loading="lazy" src="./redis1.webp" width="50%" alt="Git" />
+                                    <p className="text-center text-xs">Redis</p>
+                                </div>
+                            </div>
+                           
+                            
+                           
+                            
+                       
+
                     </div>
                 </Col>
             </Row>
