@@ -20,7 +20,7 @@ function Projects() {
                         <li><a href='https://github.com/Gauravgol/GroomAdminPanel'>Details || code</a></li>
                     </ul>
                 </Col>
-                <Col xs={12} md={4} className="mb-4">
+                {/* <Col xs={12} md={4} className="mb-4">
                     <h4 className="text-center">BACKEND FOR VIDEO STREAMING SITE</h4>
                     <img src="./adminpanel.png" className="img-fluid" alt="Backend for Video Streaming Site" />
                     <p>This is the backend for a video streaming site built using Node.js and MongoDB. It features production-level backend practices, JWT tokens for authentication, Cloudinary for video storage, and bcrypt for password encryption. Key features include:</p>
@@ -32,7 +32,21 @@ function Projects() {
                         <li><a href='https://github.com/Gauravgol/Backend-Project'>API Documentation</a></li>
                         <li><a href='https://github.com/Gauravgol/Backend-Project'>Details || code</a></li>
                     </ul>
-                </Col>
+                </Col> */}
+                <Col xs={12} md={4} className="mb-4">
+    <h4 className="text-center">REAL-TIME CHAT APPLICATION</h4>
+    <img src="./chatapp.jpg" className="img-fluid" alt="Real-Time Chat Application" />
+    <p>This is a real-time chat application built using Node.js, React.js, and MongoDB. It leverages Socket.IO for seamless real-time communication and incorporates secure backend practices. Key features include:</p>
+    <ul>
+        <li>User registration and login: Secure authentication with hashed passwords.</li>
+        <li>Real-time messaging: Users can send and receive messages instantly.</li>
+        <li>MongoDB integration: Store user data and chat history.</li>
+        <li>Responsive design: Optimized for various devices.</li>
+        <li><a href='https://github.com/Gauravgol/chatAppFrontend'>Frontend Source Code</a></li>
+        <li><a href='https://github.com/Gauravgol/chatAppBackend'>Backend Source Code</a></li>
+        <li><a href='https://graceful-dango-bd1b23.netlify.app/'>Live Application</a></li>
+    </ul>
+</Col>
                 <Col xs={12} md={4} className="mb-4">
                     <h4 className="text-center">SOCKET IO PROJECT</h4>
                     <img src="./socketTask.png" className="img-fluid" alt="Socket IO Project" />
